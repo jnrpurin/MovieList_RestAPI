@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/MovieList/v15
+/ReadSpreadsheet/bin/Debug
+/ReadSpreadsheet/obj/Debug
+/.vs
+/ReadSpreadsheet.App/bin/Debug
+/ReadSpreadsheet.App/obj/Debug
+/ReadSpreadsheet.Domain/bin/Debug
+/ReadSpreadsheet.Domain/obj/Debug
