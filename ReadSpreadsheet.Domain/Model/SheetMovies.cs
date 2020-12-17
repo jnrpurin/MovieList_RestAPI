@@ -1,6 +1,6 @@
 ﻿namespace ReadSpreadsheet.Domain.Model
 {
-    public class SheetMovies
+    public class MoviesInfo
     {
         public int MovieId { get; set; }
 
