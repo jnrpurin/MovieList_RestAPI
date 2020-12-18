@@ -3,14 +3,6 @@ C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Deb
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Debug\netcoreapp2.1\LoadMoviesAPI.runtimeconfig.dev.json
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Debug\netcoreapp2.1\LoadMoviesAPI.dll
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Debug\netcoreapp2.1\LoadMoviesAPI.pdb
-C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.csproj.CoreCompileInputs.cache
-C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.RazorAssemblyInfo.cache
-C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.RazorAssemblyInfo.cs
-C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.AssemblyInfoInputs.cache
-C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.AssemblyInfo.cs
-C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.RazorTargetAssemblyInfo.cache
-C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.dll
-C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.pdb
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Debug\netcoreapp2.1\ReadSpreadsheet.App.dll
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Debug\netcoreapp2.1\ReadSpreadsheet.Domain.dll
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Debug\netcoreapp2.1\ReadSpreadsheet.App.pdb
@@ -18,4 +10,12 @@ C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Deb
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Debug\netcoreapp2.1\ReadSpreadsheet.Domain.pdb
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\bin\Debug\netcoreapp2.1\ReadSpreadsheet.Domain.dll.config
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.csprojAssemblyReference.cache
+C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.csproj.CoreCompileInputs.cache
+C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.RazorAssemblyInfo.cache
+C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.RazorAssemblyInfo.cs
+C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.AssemblyInfoInputs.cache
+C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.AssemblyInfo.cs
+C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.RazorTargetAssemblyInfo.cache
 C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.csproj.CopyComplete
+C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.dll
+C:\Users\320049484\Desktop\Ademir\MyDocs\MovieList_RestAPI\LoadMoviesAPI\obj\Debug\netcoreapp2.1\LoadMoviesAPI.pdb

@@ -1,12 +1,7 @@
 ﻿namespace ReadSpreadsheet.Domain.Constants
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public static class SpreadsheetConfig
     {
-        public const string ExcelMoviesFileName = "movielist.csv";
-
         public static readonly object[] SpreadsheetMoviesHeaderRow =
         {
             "year",
@@ -15,5 +10,7 @@
             "producers",
             "winner"
         };
+
+        public static string CsvFilePath => "C:\\Temp\\movielist2.csv";
     }
 }

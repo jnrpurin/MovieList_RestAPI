@@ -19,16 +19,16 @@ namespace ReadSpreadsheetUI
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-            /*if (openCSVFileDialog.ShowDialog() == DialogResult.OK)
+            if (openCSVFileDialog.ShowDialog() == DialogResult.OK)
             {
                 txtCsvFile.Text = openCSVFileDialog.FileName;
 
-                if (File.Exists(txtCsvFile.Text) && Path.GetExtension(txtCsvFile.Text).Equals(".csv"))
+                if (spreadsheetService.CheckCsvFilePath(txtCsvFile.Text))
                 {
                     spreadsheetService.SetFilePath(txtCsvFile.Text);
 
                     var obj = (string[])File.ReadAllLines(spreadsheetService.GetFilePath());
-                    var movies = spreadsheetService.MovieSpreadsheetToMoviesInfo(obj);
+                    var movies = spreadsheetService.MovieS(obj);
 
                     ShowCsvFileContentInGridView(movies);
                 }
@@ -40,12 +40,12 @@ namespace ReadSpreadsheetUI
                         txtCsvFile.Focus();
                     }
                 }
-            }*/
+            }
         }
 
+        /// </summary>
         private void ShowCsvFileContentInGridView(System.Collections.Generic.IEnumerable<ReadSpreadsheet.Domain.Model.MoviesInfo> movies)
         {
-            //dataGridView.Columns.Add("id", "id");
             dataGridView.Columns.Add("year", "year");
             dataGridView.Columns.Add("title", "title");
             dataGridView.Columns.Add("studio", "studio");
@@ -57,7 +57,6 @@ namespace ReadSpreadsheetUI
                 var index = dataGridView.Rows.Add();
                 for (int i = 0; i < 6; i++)
                 {
-                    //dataGridView.Rows[index].Cells[0].Value = movie.MovieId;
                     dataGridView.Rows[index].Cells[(int)SeqMovieColumn.Producer].Value = movie.Producer;
                     dataGridView.Rows[index].Cells[(int)SeqMovieColumn.Studio].Value = movie.Studio;
                     dataGridView.Rows[index].Cells[(int)SeqMovieColumn.Title].Value = movie.Title;

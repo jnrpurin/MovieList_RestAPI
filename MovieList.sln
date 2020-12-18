@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadSpreadsheet.App", "Read
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadSpreadsheet.InjectDep", "ReadSpreadsheet.InjectDep\ReadSpreadsheet.InjectDep.csproj", "{752A701C-41C6-43DE-885F-DA5517BD995D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadMoviesAPI", "LoadMoviesAPI\LoadMoviesAPI.csproj", "{E15479D8-023B-4DC9-9074-7AB876BB4145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadMoviesAPI", "LoadMoviesAPI\LoadMoviesAPI.csproj", "{E15479D8-023B-4DC9-9074-7AB876BB4145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadSpreadsheetTest", "ReadSpreadsheetTest\ReadSpreadsheetTest.csproj", "{16320B1D-7ED4-4083-9490-527C2EC5B977}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +129,26 @@ Global
 		{E15479D8-023B-4DC9-9074-7AB876BB4145}.Release|x64.Build.0 = Release|Any CPU
 		{E15479D8-023B-4DC9-9074-7AB876BB4145}.Release|x86.ActiveCfg = Release|Any CPU
 		{E15479D8-023B-4DC9-9074-7AB876BB4145}.Release|x86.Build.0 = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|ARM.Build.0 = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|x64.Build.0 = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Debug|x86.Build.0 = Debug|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|ARM.ActiveCfg = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|ARM.Build.0 = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|ARM64.Build.0 = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|x64.ActiveCfg = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|x64.Build.0 = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|x86.ActiveCfg = Release|Any CPU
+		{16320B1D-7ED4-4083-9490-527C2EC5B977}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ReadSpreadsheet.Domain.Constants;
 using ReadSpreadsheet.Domain.Interfaces.Service;
-using ReadSpreadsheet.Domain.Model;
 
 namespace LoadMoviesAPI.Controllers
 {
@@ -22,11 +22,12 @@ namespace LoadMoviesAPI.Controllers
 
         // GET api/movies
         [HttpGet]
-        public ActionResult<IEnumerable<MoviesInfo>> Get()
+        public ActionResult<IEnumerable<dynamic>> Get()
         {
             try
             {
-                var data = _spreadsheetService.GetBiggerAndFasterProducer();
+                var filePath = SpreadsheetConfig.CsvFilePath;
+                var data = _spreadsheetService.GetLongestAndFasterProducer(filePath);
 
                 return Ok(data);
             }

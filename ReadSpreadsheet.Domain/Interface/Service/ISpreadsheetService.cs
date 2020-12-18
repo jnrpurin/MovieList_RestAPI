@@ -10,8 +10,9 @@ namespace ReadSpreadsheet.Domain.Interfaces.Service
         ///     1 - the producer with the longest interval between two consecutive awards
         ///     2 - the producer who wins two awards faster;
         /// </summary>
+        /// <param name="filePath">File path</param>
         /// <returns>List of movies info</returns>
-        IEnumerable<MoviesInfo> GetBiggerAndFasterProducer();
+        IEnumerable<dynamic> GetLongestAndFasterProducer(string filePath);
 
         /// <summary>
         /// Get the file path value
@@ -24,6 +25,20 @@ namespace ReadSpreadsheet.Domain.Interfaces.Service
         /// </summary>
         /// <param name="filePath">File path</param>
         void SetFilePath(string filePath);
+
+        /// <summary>
+        /// Check csv extension and if file exists
+        /// </summary>
+        /// <param name="FilePath">file path from csv</param>
+        /// <returns>True if valid path otherwise false</returns>
+        bool CheckCsvFilePath(string FilePath);
+
+        /// <summary>
+        /// Build the movies list information
+        /// </summary>
+        /// <param name="spreadSheedMovies">Movies spreadsheet</param>
+        /// <returns>List of all movies</returns>
+        IEnumerable<MoviesInfo> MovieS(string[] spreadSheedMovies);
 
     }
 }

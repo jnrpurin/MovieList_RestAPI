@@ -1,0 +1,69 @@
+//somente os ganhadores
+
+            var winners = movies.Where(m => m.Winner);
+
+
+
+            //aqui tentei pegar os que aparecem mais de uma vez entre os ganhadores
+
+            var query = winners.OrderBy(o => o.Year)
+
+                .GroupBy(g => g.Producer)
+
+                .Where(g => g.Count() > 1)
+
+                .Select(g => {
+
+                    int maxInterval = Int32.MinValue
+
+                        , minimalInterval = Int32.MaxValue
+
+                        , delta = 0;
+
+
+                    //Calcula o maior e o menor intervalo entre os itens
+
+                    for (int i = 1; i < g.Count(); i++)
+
+                    {
+
+                        Movie previous = g.ElementAt(i - 1),
+
+                              current = g.ElementAt(i);
+
+
+                        delta = Math.Abs(current.Year - previous.Year);
+
+
+                        if (delta > maxInterval) maxInterval = delta;
+
+
+                        if (delta < minimalInterval) minimalInterval = delta;
+
+                    }
+
+
+                    return new { Producer = g.Key, Minimal = minimalInterval, Maximum = maxInterval };
+
+                })
+
+                .ToList();
+
+
+
+            //pega o menor interval
+ 
+            var shorterInterval = query.Min(x => x.Minimal);
+
+
+
+            //E o maior tbm
+
+            var biggerInterval = query.Max(x => x.Maximum);
+
+
+
+            //E os producers correspondentes
+            var shorterIntervalProducer = query.FirstOrDefault(x => x.Minimal == shorterInterval);
+
+            var biggerIntervalProducer = query.FirstOrDefault(x => x.Maximum == shorterInterval);
